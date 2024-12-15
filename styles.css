@@ -1,0 +1,90 @@
+.container{
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    font-family: "Figtree", sans-serif;
+    height: 100vh;
+}
+.blog{
+    width: 270px;
+    background-color: hsl(0, 0%, 100%);
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: 5px 5px black;
+    border-style: solid;
+    border-width: 1px;
+}
+.svg{
+    width: 90%;
+    padding: 1rem;
+    border-radius: 25px;
+    margin-top: 0.2px
+}
+button{
+    background-color: hsl(47, 88%, 63%);
+    border-radius: 3px;
+    border-style: none;
+    font-weight: bolder;
+}
+button, .publishing, .title, .description, .image-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-self: flex-start;
+    margin: 0.3rem;
+    margin-left: 1rem;
+}
+.publishing{
+    font-size: small;
+}
+.title{
+    font-weight: 800;
+    font-size: larger;
+}
+.title:hover{
+    color:hsl(47, 88%, 63%);
+}
+.description {
+    font-size: 12px;
+    margin-top: 0.5rem;
+    line-height: 1.6;
+}
+.image-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.greg {
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.greg-text{
+    font-size: small;
+    font-weight: bolder;
+}
+footer{
+    margin-top: 30px;
+}
+
+@media (min-width: 11440px) {
+    .container{
+        padding: 20px;
+    }
+    .blog{
+        width: 50px;
+    }
+    .title{
+        font-size: x-large;
+    }
+    .description{
+        font-size: medium;
+    }
+}
