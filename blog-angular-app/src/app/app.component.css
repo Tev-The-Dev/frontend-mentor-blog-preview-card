@@ -9,7 +9,7 @@
     height: 100vh;
 }
 .blog{
-    width: 270px;
+    width: 17rem;
     background-color: hsl(0, 0%, 100%);
     display: inline-flex;
     flex-direction: column;
@@ -19,12 +19,13 @@
     box-shadow: 5px 5px black;
     border-style: solid;
     border-width: 1px;
+   
 }
 .svg{
     width: 90%;
     padding: 1rem;
     border-radius: 25px;
-    margin-top: 0.2px
+    /*margin-top: 0.2px*/
 }
 button{
     background-color: hsl(47, 88%, 63%);
